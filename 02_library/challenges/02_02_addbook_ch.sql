@@ -9,3 +9,11 @@
 -- Author: Jonathan Swift
 -- Published: 1729
 -- ID Number: 4899254401
+
+INSERT INTO books (title, author, published, Barcode)
+VALUES ('Dracula', 'Bram Stoker', '1897', '4819277482'),
+       ('Gulliver’s Travels into Several Remote Nations of the World', 'Jonathan Swift', '1729', '4899254401');
+
+SELECT * FROM books
+ORDER BY BookID DESC
+LIMIT 7;       
